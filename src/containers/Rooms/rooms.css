@@ -1,0 +1,91 @@
+.section-rooms {
+    background: rgba(248, 136, 90, 0.07);
+    transform: skewY(8deg);
+    padding: 10rem;
+    margin-top: 10rem;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    transform: skewY(-8deg);
+    margin: 10rem 0;
+
+}
+
+.rooms {
+    transform: skewY(-8deg);
+    color: #33373D;
+}
+
+.rooms-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../src/assets/img/luxury room.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 45rem;
+    height: 42rem;
+}
+
+.room-text {
+    position: relative;
+    top: 34rem;
+    left: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 26px;
+    color: #fff;
+
+}
+
+.rooms-section-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.room-text-2 {
+    position: relative;
+    top: 12rem;
+    left: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 26px;
+    color: #fff;
+
+}
+
+.deluxe {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../src/assets/img/deluxe room.jpg");
+    background-size: cover;
+    width: 25rem;
+    height: 50rem;
+    flex: 1;
+
+}
+
+.deluxe-2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../src/assets/img/standard room.jpg");
+    background-size: cover;
+    width: 25rem;
+    height: 50rem;
+    flex: 1;
+
+}
+
+.deluxe:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.big-heading-2 {
+    transform: rotate(-90deg);
+    font-size: 10rem;
+    line-height: 22.5rem;
+    color: rgba(51, 55, 61, 0.05);
+    /*margin: 1rem 0;*/
+}
+
+.two {
+    transform: skewY(-8deg);
+    text-align: right;
+}

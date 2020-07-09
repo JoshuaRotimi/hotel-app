@@ -1,0 +1,131 @@
+.section-about {
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 0 10rem;
+
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+}
+
+.symbol {
+    font-size: 2rem;
+}
+
+.check-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    justify-content: center;
+    margin-top: -4rem;
+    background: linear-gradient(180deg, #F8885A 0%, #EB4501 100%);
+    color: white;
+    min-width: 20rem;
+
+}
+
+.check-box:not(:last-child) {
+    border-right: 3px solid white;
+    background: #33373D;
+    box-shadow: .5rem 1rem 4rem rgba(0, 0, 0, 0.25);
+
+}
+
+.big-button {
+    border: none;
+    font-size: 2rem;
+    background: transparent;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.check-paragraph {
+    font-size: 1.4rem;
+}
+
+.check-header {
+    color: #F8885A;
+    font-size: 1.2rem;
+}
+.sec {
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.sec::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 6.5%; /* Change this to whatever width you want. */
+    padding-top: .2rem;
+    border-bottom: 3px solid #F8885A;
+}
+.about {
+    margin-top: 10rem;
+    color: #33373D;
+    padding: 0 10rem;
+}
+
+.section-review {
+    display: flex;
+    align-items: center;
+    padding: 10rem 0;
+    justify-content: space-around;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*flex: 1;*/
+}
+
+.review-photo {
+    height: 30rem;
+    width: 30rem;
+    margin: 0 10rem;
+}
+
+.page-heading {
+    transform: rotate(-90deg);
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+
+.section-paragraph {
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.56);
+    padding: 1rem;
+
+}
+
+.link-button {
+    text-decoration: none;
+    color: #F8885A;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    align-items: center;
+    transition: all .2s;
+}
+
+.link-button:hover, .span-one:hover {
+    color: rgba(0, 0, 0, 0.56);
+}
+
+
+.big-div {
+    transform: rotate(-90deg);
+    align-items: stretch;
+}
+
+.big-heading {
+    transform: rotate(-360deg);
+    font-size: 10rem;
+    line-height: 22.5rem;
+    color: rgba(51, 55, 61, 0.05);
+    /*margin: 1rem 0;*/
+}
